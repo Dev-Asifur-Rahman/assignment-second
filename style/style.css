@@ -1,3 +1,70 @@
-body{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+*{
+    font-family: 'Mulish';
+}
+.orange-color{
+    color: #FF5400;
+}
+.nav-names{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-name{
+    display: flex;
+    align-items: center;
+}
+.ul-design{
+    list-style:none;
+    display: flex;
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav{
+    margin: 0 100px;
+    background: rgb(179, 229, 196);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 15px;
+
+}
+.explore-your-travel{
+    background-image: url('../Images/Group\ 13\ .png');
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 30px 100px;
+    background-size: cover;
+    border-radius: 15px
+    
+}
+.heading-explore{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 50px 285px;
+    padding-bottom: 0px;
+}
+.explore-details{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px auto;
+}
+.explore-dropdown{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+    margin: 30px 400px;
 }
