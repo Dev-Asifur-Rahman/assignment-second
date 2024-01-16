@@ -72,7 +72,7 @@ nav{
     padding: 10px 0;
     margin: 30px 300px;
 }
-.explore-dropdown input[type='submit']{
+.explore-dropdown button[type='submit']{
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
