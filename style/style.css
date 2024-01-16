@@ -39,7 +39,7 @@ nav{
 
 }
 .explore-your-travel{
-    background-image: url('../Images/Group\ 13\ .png');
+    background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(122, 112, 112, 0.7)), url('../Images/Group\ 13\ .png');
     height: 500px;
     background-repeat: no-repeat;
     margin: 30px 100px;
@@ -97,6 +97,202 @@ nav{
     border: none;
     outline: none;
 }
+.our-tour{
+    margin: 30px 100px;
+    display: flex;
+    align-items: center;
+}
+.tour-heading{
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+.tour-list{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    }
+.our-tour-button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+}
+.tour-rules{
+    padding-left: 20px;
+}
+.destination{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.destination-country{
+    margin: 5px 100px;
+    justify-content: space-between;
+}
+.destination-image{
+    width: 100%;
+}
+.choose-head{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.choose-content{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.cr-flex{
+    height: 280px;
+    margin: 10px 100px;
+    display: flex;
+}
+.cr1{
+    height:200px;
+    width: 500px;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 25px 32px;
+    margin-left: 60px;
+    }
+.cr1-text{
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.cr1-details{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.cr2{
+    height:200px;
+    width: 500px;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 25px 32px;
+    margin-right: 60px;
+}
+.cr2-text{
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.cr2-details{
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+}
+.cr3{
+    height:200px;
+    width: 500px;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 25px 32px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 2px auto;
+}
+.cr3-text{
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.cr3-details{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.last{
+    margin: 10px 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-form{
+    height: 400px;
+    width: 450px;
+    border: 3px solid #FF5400;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 8px;
+    padding-right: 140px;
+}
+.news-letter{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+}
+.newsletter-details{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+input{
+    font-size: 20px;
+    margin: 5px auto;
+}
+.news-form input[type="text"]{
+    background: rgba(19, 19, 24, 0.05);
+    width: 540px;
+    height: 52px;
+    border-radius: 8px;
+}
+.news-form input[type="submit"]{
+    width: 544px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFFFFF;
+}
 @media screen and (max-width:600px){
     *{
         margin: 0px;
@@ -119,6 +315,46 @@ nav{
     }
     .explore-your-travel{
         margin: 15px 100px;
+    }
+    .our-tour{
+        flex-direction: column;
+    }
+    .tour-image{
+        margin: 15px 100px;
+    }
+    .tour-list{
+        line-height: 30px;
+    }
+    .destination-country{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 50px;
+    }
+    .destination-country img{
+        width: 100%;
+    }
+    .cr-flex{
+        flex-direction: column;
+        margin-left: 20px
+    }
+    .cr1{
+        margin-left: 0px;
+    }
+    .cr2{
+        margin-top: 25px;
+    }
+    .choosing-reason{
+        height: 700px;
+    }
+    .cr3{
+        margin-top:230px;
+    }
+    .last{
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    .last-image{
+        margin-top: 10px;
     }
     
 }
