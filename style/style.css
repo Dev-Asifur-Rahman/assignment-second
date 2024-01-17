@@ -70,7 +70,7 @@ nav{
     justify-content: center;
     gap: 15px;
     padding: 10px 0;
-    margin: 30px 300px;
+    margin: 30px 230px;
 }
 .explore-dropdown button[type='submit']{
     border-radius: 8px;
@@ -149,9 +149,23 @@ nav{
     line-height: 26px; 
 }
 
-.destination-country{
+.destination-country1{
     margin: 5px 100px;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5px;
+}
+.destination-country2{
+    margin: 5px 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+}
+.destination-country3{
+    margin: 5px 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5px;
 }
 .destination-image{
     width: 100%;
@@ -367,6 +381,44 @@ footer{
     top: -161.5px;
     right: -271px;
 }
+.special-service{
+    background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(122, 112, 112, 0.7)), url('../Images/special.jpg');
+    margin: 20px 100px;
+    height: 500px;
+    padding: 20px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px
+
+}
+.special-heading{
+    font-size: 3rem;
+    color: #cee667;
+    text-align: center;
+}
+.flex-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.delux-heading{
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: burlywood;
+}
+.gold-heading{
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: gold;
+}
+.normal-heading{
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: silver;
+}
+.flex-div li{
+    font-size: 2rem;
+    color: rgb(221, 161, 118);
+}
 @media screen and (max-width:600px){
     *{
         margin: 0px;
@@ -389,8 +441,24 @@ footer{
     }
     .explore-your-travel{
         margin: 15px 100px;
+        margin-bottom: 0px;
     }
     .our-tour{
+        flex-direction: column;
+    }
+    .our-tour-button{
+        margin: 5px 100px;
+    }
+    .destination-country1{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination-country2{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination-country3{
+        display: flex;
         flex-direction: column;
     }
     .tour-image{
@@ -431,10 +499,17 @@ footer{
         margin-top: 10px;
     }
     footer{
-        margin: 100px auto;
+        margin: 10px auto;
     }
     .margin{
         margin-left: 100px;
+    }
+    .flex-div{
+        flex-direction: column;
+    }
+    .special-service{
+        margin: 110px 10px;
+        margin-bottom: 20px;
     }
     
 }
